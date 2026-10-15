@@ -1,5 +1,5 @@
 Synthetic scene A / frame 1
-  StructureViewer synthetic
+  Molook synthetic
 Illustrative coordinates only; no optimization
  34 33  0  0  0  0            999 V2000
    -0.7400    0.0000   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -72,7 +72,7 @@ Illustrative coordinates only; no optimization
 M  END
 $$$$
 Synthetic scene A / frame 2
-  StructureViewer synthetic
+  Molook synthetic
 Illustrative coordinates only; no optimization
  34 33  0  0  0  0            999 V2000
    -0.7400    0.0000   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0

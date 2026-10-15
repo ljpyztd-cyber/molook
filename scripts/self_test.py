@@ -174,7 +174,7 @@ class ServiceTests(unittest.TestCase):
         data = self.get("dataset.json")
         self.assertEqual(data["schema"], "structure-viewer/1")
         self.assertEqual(len(data["models"]), 2)
-        self.assertIn(b"Structure", self.get(""))
+        self.assertIn(b"Molook", self.get(""))
 
     def test_private_paths_not_served(self):
         for path in (".runtime/server.json", "sources/input_dataset.json", "../bundle.json"):

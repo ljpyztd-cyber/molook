@@ -51,10 +51,10 @@ def main():
     payload["MANIFEST.sha256.json"] = manifest_bytes
     output = ROOT / "codex-files/releases"
     output.mkdir(parents=True, exist_ok=True)
-    archive = output / f"structure-viewer-v{version}.zip"
+    archive = output / f"molook-v{version}.zip"
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for name, raw in sorted(payload.items()):
-            entry = zipfile.ZipInfo("structure-viewer/" + name, date_time=(2026, 1, 1, 0, 0, 0))
+            entry = zipfile.ZipInfo("molook/" + name, date_time=(2026, 1, 1, 0, 0, 0))
             entry.compress_type = zipfile.ZIP_DEFLATED
             entry.external_attr = 0o100644 << 16
             z.writestr(entry, raw, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)

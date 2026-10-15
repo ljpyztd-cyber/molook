@@ -1,4 +1,4 @@
-# Structure Viewer agent guide
+# Molook agent guide
 
 Scope: this standalone application only. Read README.md (or README.zh-CN.md), DEPLOY_WITH_AGENT.md and AGENT_HANDOFF.md.
 

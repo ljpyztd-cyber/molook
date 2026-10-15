@@ -1,4 +1,4 @@
-/* Structure Viewer 1.1.0. Scientific records are immutable; viewers receive copies. */
+/* Molook 1.1.1. Scientific records are immutable; viewers receive copies. */
 'use strict';
 const $ = id => document.getElementById(id);
 const STATUS = {initial:'初始结构 · 未优化', illustrative:'示意构型', running:'优化中 · 未验收', accepted:'已验收 · 见证据', unverified:'待核验'};
@@ -287,7 +287,7 @@ async function exportPNG(onlyActive){
       if(p.measurements.length)wrapText(ctx,'紫色：源坐标测量，非周期最小镜像；完整原子 ID / 数值见 PNG 元数据及同名 JSON。',x+40,fy,width-80,27);
       ctx.strokeStyle='#dce5e8';ctx.strokeRect(x+18,y+5,width-36,cellHeight-12);
     }
-    ctx.font='20px "Segoe UI", "Microsoft YaHei", sans-serif';ctx.fillStyle='#6b7f8b';ctx.fillText('Structure Viewer '+session.version+' · '+new Date().toISOString()+' · '+($('export-fit').checked?'各面板独立适配；非同一比例尺 · ':'当前相机 · ')+'完整来源 / 状态 / 相机随 PNG 与 JSON 保存',40,canvas.height-28);
+    ctx.font='20px "Segoe UI", "Microsoft YaHei", sans-serif';ctx.fillStyle='#6b7f8b';ctx.fillText('Molook '+session.version+' · '+new Date().toISOString()+' · '+($('export-fit').checked?'各面板独立适配；非同一比例尺 · ':'当前相机 · ')+'完整来源 / 状态 / 相机随 PNG 与 JSON 保存',40,canvas.height-28);
     const metadata={...currentView(),export_kind:onlyActive?'single':'comparison',export_fit:$('export-fit').checked,exported_views:exportedViews,pixel_size:[canvas.width,canvas.height],records:exportRecords(list),measurement_convention:'Cartesian source coordinates, no minimum-image convention',contact_criterion:'Explicit D-H, D/A=N/O/F; A without bonded H; different fragments; HA<=2.6 A, DA<=3.5 A, DHA>=130 degrees; geometric candidates only'};
     const result=await post('/api/export',{kind:'png',data:canvas.toDataURL('image/png'),metadata});showExport(result);tell('PNG 已保存：'+result.path);
   }catch(e){fail(e);}finally{if(temporary){dispose(tempViewer,temporary);temporary.remove();}busy=false;document.querySelectorAll('main,header,.comparison-bar').forEach(n=>n.inert=false);for(const id of ['export-all','export-active','quick-export'])$(id).disabled=false;}
@@ -323,7 +323,7 @@ async function main(){
   try{
     const results=await Promise.all([fetch('dataset.json').then(r=>{if(!r.ok)throw Error('数据集读取失败');return r.json();}),fetch('/api/session').then(r=>{if(!r.ok)throw Error('请通过本地服务打开预览');return r.json();})]);
     dataset=freeze(results[0]);session=results[1];if(dataset.schema!=='structure-viewer/1')throw Error('不支持的数据契约版本');
-    $('title').textContent=dataset.title||'结构预览';document.title=$('title').textContent;$('description').textContent=dataset.description||'本地结构检查与比较';
+    $('title').textContent=dataset.title||'Molook · 分子窗';document.title=$('title').textContent.startsWith('Molook')?$('title').textContent:'Molook · '+$('title').textContent;$('description').textContent=dataset.description||'本地结构检查与比较';
     selected=dataset.models.slice(0,Math.min(2,dataset.models.length)).map(m=>m.id);active=selected[0];rebuildPicker();rebuildCards();syncControls();bind();
     tell('已加载 '+dataset.models.length+' 个结构 · 输出：'+session.export_path+' · 闲置 '+session.idle_minutes+' 分钟自动停止');
   }catch(e){fail(e);}

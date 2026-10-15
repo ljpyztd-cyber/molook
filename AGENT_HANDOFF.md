@@ -49,3 +49,9 @@ python -B scripts/self_test.py
 The packager writes ZIP/checksum files under `codex-files/releases/` and updates the root distribution manifest. That manifest deliberately excludes itself; the ZIP SHA256 covers the entire archive. Fingerprints detect byte changes and are not digital signatures.
 
 打包脚本在 `codex-files/releases/` 生成 ZIP/校验值并更新根目录清单。清单不包含自身，ZIP 的 SHA256 覆盖整个压缩包；文件指纹不等于数字签名。
+
+## Product name and compatibility / 名称与兼容性
+
+The product is **Molook (分子窗)** from version 1.1.1. The `structure-viewer/1`, `structure-viewer-view/1`, `structure-viewer-bundle/1` and `structure-viewer-distribution/1` identifiers and internal asset paths remain stable for compatibility. The public repository and ZIP folder are named `molook`.
+
+自 1.1.1 起，产品名为 **Molook（分子窗）**。保留原有数据、视图、构建及发布清单格式标识与内部资源路径，以保持兼容；公开仓库及 ZIP 内根目录使用 `molook`。

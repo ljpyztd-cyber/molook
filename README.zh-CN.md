@@ -1,10 +1,10 @@
-# Structure Viewer · 独立结构预览器
+# Molook · 分子窗
 
-[English](README.md) · [Agent 部署提示词](DEPLOY_WITH_AGENT.md) · [下载发布包](https://github.com/ljpyztd-cyber/structure-viewer/releases)
+[English](README.md) · [Agent 部署提示词](DEPLOY_WITH_AGENT.md) · [下载发布包](https://github.com/ljpyztd-cyber/molook/releases)
 
-白底青灰风格的本地离线结构工作台。支持最多四个结构对照、源原子编号查看、几何测量，以及带来源信息的高清图片导出。
+**Molook = Mol（分子）+ Look（观察）**，中文名 **分子窗**。白底青灰风格的本地离线结构工作台。支持最多四个结构对照、源原子编号查看、几何测量，以及带来源信息的高清图片导出。
 
-**1.1.0 默认独立控制每个面板的旋转与缩放。** 只有手动勾选“联动旋转 / 缩放”后才会同步其他面板。
+**1.1.1 默认独立控制每个面板的旋转与缩放。** 只有手动勾选“联动旋转 / 缩放”后才会同步其他面板。
 
 ![合成示例界面](preview.jpg)
 
@@ -15,8 +15,8 @@
 下载并解压 Release 中的 ZIP，或克隆仓库：
 
 ```sh
-git clone https://github.com/ljpyztd-cyber/structure-viewer.git
-cd structure-viewer
+git clone https://github.com/ljpyztd-cyber/molook.git
+cd molook
 python -B run.py
 ```
 
@@ -29,7 +29,7 @@ python -B run.py stop          # 停止本演示实例
 python -B scripts/self_test.py # 运行自检
 ```
 
-Windows 还可双击 `STOP_DEMO.cmd`。首次启动将演示构建到 `demo-project/codex-files/structure-demo-v1.1.0/`，重复启动会复用匹配实例。服务仅监听本机 **127.0.0.1**，默认空闲 120 分钟自动停止。
+Windows 还可双击 `STOP_DEMO.cmd`。首次启动将演示构建到 `demo-project/codex-files/molook-demo-v1.1.1/`，重复启动会复用匹配实例。服务仅监听本机 **127.0.0.1**，默认空闲 120 分钟自动停止。
 
 可用 `--project "D:/MyWork/Viewer"` 指定工作目录；启动、查询和停止均须传相同目录。生成的预览、导入、导出及日志统一位于该项目的 `codex-files/` 内。
 

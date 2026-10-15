@@ -1,6 +1,6 @@
 # Validation / 验证范围
 
-## Version 1.1.0 — 2026-10-15
+## Version 1.1.1 — 2026-10-15
 
 The release is checked with the bundled standard-library suite and an actual local WebGL browser. / 发布前使用包内标准库测试和真实本地 WebGL 浏览器验证。
 

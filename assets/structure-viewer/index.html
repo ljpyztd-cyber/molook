@@ -2,12 +2,12 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>结构预览</title><link rel="stylesheet" href="style.css">
+  <title>Molook · 分子窗</title><link rel="stylesheet" href="style.css">
   <script defer src="vendor/3Dmol-min.js"></script><script defer src="app.js"></script>
 </head>
 <body>
 <header class="page-header">
-  <div><div class="eyebrow"><span class="mark">S</span> STRUCTURE / REVIEW <span class="local">本地 · 离线</span></div><h1 id="title">结构预览</h1><p id="description">正在校验并加载结构…</p></div>
+  <div><div class="eyebrow"><span class="mark">M</span> MOLOOK / 分子窗 <span class="local">本地 · 离线</span></div><h1 id="title">Molook · 分子窗</h1><p id="description">正在校验并加载结构…</p></div>
   <div class="header-actions"><label class="button" for="import-file">＋ 导入结构</label><input id="import-file" type="file" accept=".xyz,.sdf,.mol,.pdb,.cif" hidden><button id="save-view">保存视图</button><label class="button" for="restore-file">恢复视图</label><input id="restore-file" type="file" accept=".json" hidden><button id="quick-export" class="primary">导出 PNG</button></div>
 </header>
 <div id="alert" role="alert" hidden></div>
@@ -41,7 +41,7 @@
   </div></details>
 </aside>
 <section class="stage"><div class="stage-heading"><span id="compare-count">结构比较</span><small>拖动旋转 · 滚轮缩放 · 右键拖动平移 · 点击原子识别</small></div><div id="cards" class="cards"></div><div class="element-legend"><span><i style="--swatch:#596779"></i>C</span><span><i style="--swatch:#d0d5dc"></i>H</span><span><i style="--swatch:#e6574f"></i>O</span><span><i style="--swatch:#4b74da"></i>N</span><span><i style="--swatch:#e8b13e"></i>S</span><span><i style="--swatch:#3a9b81"></i>F / Cl</span><span class="hint">片段色标见各结构下方 · 所有长度单位 Å</span></div><div id="inspector" class="inspector">选择一个原子，查看稳定编号、片段与原始坐标。</div>
-<details class="provenance"><summary>来源、状态与支持范围</summary><div id="sources"></div><p>原子序号和连接来自输入；没有连接信息时只显示原子。支持 XYZ 多帧、SDF V2000、PDB（显式元素与 CONECT）、P1 CIF。拒绝含混的占位、无序和未展开的晶体对称性。构型状态由数据提供者声明，渲染器不作科学验收；已验收状态必须附证据引用。</p><p>显示操作、测量和截图不会写回源结构。不自动拟合、优化、平移坐标、生成对称原子或周期镜像。页面内导入默认“待核验”。最多同时比较四个结构；单帧 50,000 原子，数据集 250,000 原子记录。大型体系请提取有依据的代表帧。</p><p>Structure Viewer 1.1.0 · <a href="vendor/dependency.json" target="_blank" rel="noopener">本地依赖与版本</a> · <a href="vendor/LICENSE-3Dmol.txt" target="_blank" rel="noopener">3Dmol.js 许可证</a></p></details>
+<details class="provenance"><summary>来源、状态与支持范围</summary><div id="sources"></div><p>原子序号和连接来自输入；没有连接信息时只显示原子。支持 XYZ 多帧、SDF V2000、PDB（显式元素与 CONECT）、P1 CIF。拒绝含混的占位、无序和未展开的晶体对称性。构型状态由数据提供者声明，渲染器不作科学验收；已验收状态必须附证据引用。</p><p>显示操作、测量和截图不会写回源结构。不自动拟合、优化、平移坐标、生成对称原子或周期镜像。页面内导入默认“待核验”。最多同时比较四个结构；单帧 50,000 原子，数据集 250,000 原子记录。大型体系请提取有依据的代表帧。</p><p>Molook · 分子窗 1.1.1 · <a href="vendor/dependency.json" target="_blank" rel="noopener">本地依赖与版本</a> · <a href="vendor/LICENSE-3Dmol.txt" target="_blank" rel="noopener">3Dmol.js 许可证</a></p></details>
 </section></main>
 <footer><span id="status" role="status" aria-live="polite">准备中</span><span>源坐标只读 · 导出带来源与显示状态</span></footer>
 </body></html>

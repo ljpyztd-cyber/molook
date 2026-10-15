@@ -136,7 +136,7 @@ def png_metadata(raw, metadata):
             if not 1 <= width <= 12000 or not 1 <= height <= 12000 or width*height > 60_000_000: raise ValueError("PNG resolution limit exceeded")
         if kind == b"IEND":
             if pos+12+n != len(raw) or not width: raise ValueError("Invalid PNG termination")
-            payload = b"Structure Viewer\0\0\0\0\0" + json.dumps(metadata, ensure_ascii=False).encode("utf-8")
+            payload = b"Molook\0\0\0\0\0" + json.dumps(metadata, ensure_ascii=False).encode("utf-8")
             chunk = b"iTXt" + payload
             return raw[:pos] + struct.pack(">I",len(payload)) + chunk + struct.pack(">I", zlib.crc32(chunk)&0xffffffff) + raw[pos:]
         pos += n+12

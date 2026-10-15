@@ -59,7 +59,7 @@ def scene(torsion, solvent_shift):
 
 
 def sdf_record(atoms, bonds, title):
-    lines = [title, "  StructureViewer synthetic", "Illustrative coordinates only; no optimization",
+    lines = [title, "  Molook synthetic", "Illustrative coordinates only; no optimization",
              f"{len(atoms):3d}{len(bonds):3d}  0  0  0  0            999 V2000"]
     lines += [f"{x:10.4f}{y:10.4f}{z:10.4f} {e:<3s} 0  0  0  0  0  0  0  0  0  0  0  0" for e, x, y, z in atoms]
     lines += [f"{a:3d}{b:3d}{order:3d}  0  0  0  0" for a, b, order in bonds]
@@ -85,7 +85,7 @@ def main():
                                       "fragment-3":{"title":"水","color":"#9b6bb3"}},
                            presets=[{"id":"host","title":"仅联苯","fragments":["fragment-1"],"note":"显示筛选；源数据不变"},
                                     {"id":"guests","title":"仅乙醇与水","fragments":["fragment-2","fragment-3"],"note":"合成位置，非溶剂化结果"}]))
-    data = validate_dataset(dict(schema="structure-viewer/1", title="Structure Viewer · 结构之美",
+    data = validate_dataset(dict(schema="structure-viewer/1", title="Molook · 分子窗",
                                  description="白底 · 青灰 · 片段着色 | 拖动比较，按需测量，高清导出。以下均为合成示意坐标，未经优化。", models=models))
     (output / "demo.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print("Synthetic examples regenerated: 2 models, 4 frames, 34 atoms per frame")

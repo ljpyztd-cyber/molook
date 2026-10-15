@@ -1,6 +1,6 @@
 {
   "schema": "structure-viewer/1",
-  "title": "Structure Viewer · 结构之美",
+  "title": "Molook · 分子窗",
   "description": "白底 · 青灰 · 片段着色 | 拖动比较，按需测量，高清导出。以下均为合成示意坐标，未经优化。",
   "models": [
     {
@@ -526,10 +526,10 @@
           "status": "illustrative",
           "source": {
             "name": "demo-a.sdf",
-            "sha256": "3d205c19521b17f555bb731557b6f4bb85d1204803fd0f21ea4cb804d8b8b5e5",
+            "sha256": "f501313ae3e612a074f361d680e81fe3cd70985a7b17ea34acf31b7e71bed699",
             "format": "sdf",
             "coordinate_unit": "angstrom",
-            "parser": "structure-viewer/1.1.0",
+            "parser": "structure-viewer/1.1.1",
             "record": 1
           },
           "coordinate_sha256": "70bdd599985a05ef1b3295c867b65a5ace8a55fd6b42caab2ef67e0371c53266"
@@ -1053,10 +1053,10 @@
           "status": "illustrative",
           "source": {
             "name": "demo-a.sdf",
-            "sha256": "3d205c19521b17f555bb731557b6f4bb85d1204803fd0f21ea4cb804d8b8b5e5",
+            "sha256": "f501313ae3e612a074f361d680e81fe3cd70985a7b17ea34acf31b7e71bed699",
             "format": "sdf",
             "coordinate_unit": "angstrom",
-            "parser": "structure-viewer/1.1.0",
+            "parser": "structure-viewer/1.1.1",
             "record": 2
           },
           "coordinate_sha256": "7ae17e78ab4ccf0eedb23fa2f2ac49314842979868e85b0f83b46f877761906d"
@@ -1619,10 +1619,10 @@
           "status": "illustrative",
           "source": {
             "name": "demo-b.sdf",
-            "sha256": "2a8e50b3f1542a466fcebe9f9e3edd40b987a26e92c798c4dc0ba2df5137b563",
+            "sha256": "67b672b38c2f0a4ece327614b8ce06cd5d28abc2e41b918744473c94e3108237",
             "format": "sdf",
             "coordinate_unit": "angstrom",
-            "parser": "structure-viewer/1.1.0",
+            "parser": "structure-viewer/1.1.1",
             "record": 1
           },
           "coordinate_sha256": "5a5a9cdac588aca0947d16355f639b6dbbed879321ec3994f7877eb58e547fd0"
@@ -2146,10 +2146,10 @@
           "status": "illustrative",
           "source": {
             "name": "demo-b.sdf",
-            "sha256": "2a8e50b3f1542a466fcebe9f9e3edd40b987a26e92c798c4dc0ba2df5137b563",
+            "sha256": "67b672b38c2f0a4ece327614b8ce06cd5d28abc2e41b918744473c94e3108237",
             "format": "sdf",
             "coordinate_unit": "angstrom",
-            "parser": "structure-viewer/1.1.0",
+            "parser": "structure-viewer/1.1.1",
             "record": 2
           },
           "coordinate_sha256": "1e1ef041b527f575d54aba2b053c38a424c5d47d00aea91ed8217a35cbd17165"

@@ -1,5 +1,11 @@
 # Changelog / 版本记录
 
+## 1.1.1 — 2026-10-15
+
+- Adopt the name **Molook (分子窗)** across the UI, exports, docs, demo and release package. / 界面、导出、文档、演示及发布包统一命名为 **Molook（分子窗）**。
+- Rename the public repository to `molook` and update bilingual deployment prompts. / 公开仓库改名为 `molook`，同步中英文部署提示词。
+- Keep the existing data-format identifiers and independent camera behavior. / 保持既有数据格式标识和默认独立相机行为。
+
 ## 1.1.0 — 2026-10-15
 
 - Independent rotation and zoom by default; linked cameras are opt-in. / 默认独立旋转与缩放，联动改为主动开启。

@@ -1,10 +1,10 @@
-# Structure Viewer
+# Molook
 
-[简体中文](README.zh-CN.md) · [Agent deployment prompt / Agent 部署提示词](DEPLOY_WITH_AGENT.md) · [Releases](https://github.com/ljpyztd-cyber/structure-viewer/releases)
+[简体中文](README.zh-CN.md) · [Agent deployment prompt / Agent 部署提示词](DEPLOY_WITH_AGENT.md) · [Releases](https://github.com/ljpyztd-cyber/molook/releases)
 
-An offline, local molecular structure viewer with a clean white-and-teal interface. Compare up to four structures, inspect source atom IDs, measure geometry and export high-resolution figures with provenance.
+**Molook** (Mol + Look), 中文名 **分子窗**. An offline, local molecular structure viewer with a clean white-and-teal interface. Compare up to four structures, inspect source atom IDs, measure geometry and export high-resolution figures with provenance.
 
-**Version 1.1.0: each panel rotates and zooms independently by default.** Linked rotation/zoom is available only when you explicitly select the checkbox.
+**Version 1.1.1: each panel rotates and zooms independently by default.** Linked rotation/zoom is available only when you explicitly select the checkbox.
 
 ![Synthetic example interface](preview.jpg)
 
@@ -15,8 +15,8 @@ Requires **Python 3.10+** and a modern **WebGL-enabled browser**. No pip/npm ins
 Download and extract the release ZIP, or clone the repository:
 
 ```sh
-git clone https://github.com/ljpyztd-cyber/structure-viewer.git
-cd structure-viewer
+git clone https://github.com/ljpyztd-cyber/molook.git
+cd molook
 python -B run.py
 ```
 
@@ -29,7 +29,7 @@ python -B run.py stop          # stop this demo instance
 python -B scripts/self_test.py # standard-library tests
 ```
 
-Windows also includes `STOP_DEMO.cmd`. The first start builds a snapshot under `demo-project/codex-files/structure-demo-v1.1.0/`. Repeated starts reuse the matching service. The service listens only on **127.0.0.1** and stops after 120 idle minutes by default.
+Windows also includes `STOP_DEMO.cmd`. The first start builds a snapshot under `demo-project/codex-files/molook-demo-v1.1.1/`. Repeated starts reuse the matching service. The service listens only on **127.0.0.1** and stops after 120 idle minutes by default.
 
 To choose a different work directory, add `--project "/path/to/MyProject"` to **all** start/status/stop commands. Generated bundles, imports, exports and logs stay under that project's `codex-files/` folder.
 

@@ -5,8 +5,8 @@ No separate skill is required. Copy the appropriate prompt below into your agent
 ## 中文提示词
 
 ```text
-请部署并接手 Structure Viewer：
-https://github.com/ljpyztd-cyber/structure-viewer
+请部署并接手 Molook（分子窗）：
+https://github.com/ljpyztd-cyber/molook
 
 工作目录：<填写可写的本地目录>
 
@@ -25,8 +25,8 @@ https://github.com/ljpyztd-cyber/structure-viewer
 ## English prompt
 
 ```text
-Deploy and take over Structure Viewer:
-https://github.com/ljpyztd-cyber/structure-viewer
+Deploy and take over Molook (分子窗):
+https://github.com/ljpyztd-cyber/molook
 
 Working directory: <a writable local directory>
 

@@ -20,7 +20,7 @@ def main():
     parser.add_argument("--project", type=Path, default=root / "demo-project")
     args = parser.parse_args()
     project = args.project.resolve()
-    bundle = project / "codex-files/structure-demo-v1.1.0"
+    bundle = project / "codex-files/molook-demo-v1.1.1"
     cli = [sys.executable, "-B", str(root / "scripts/preview.py")]
     if not bundle.exists():
         if args.action != "start":
