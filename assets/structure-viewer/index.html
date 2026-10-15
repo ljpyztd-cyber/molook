@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>结构预览</title><link rel="stylesheet" href="style.css">
+  <script defer src="vendor/3Dmol-min.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<header class="page-header">
+  <div><div class="eyebrow"><span class="mark">S</span> STRUCTURE / REVIEW <span class="local">本地 · 离线</span></div><h1 id="title">结构预览</h1><p id="description">正在校验并加载结构…</p></div>
+  <div class="header-actions"><label class="button" for="import-file">＋ 导入结构</label><input id="import-file" type="file" accept=".xyz,.sdf,.mol,.pdb,.cif" hidden><button id="save-view">保存视图</button><label class="button" for="restore-file">恢复视图</label><input id="restore-file" type="file" accept=".json" hidden><button id="quick-export" class="primary">导出 PNG</button></div>
+</header>
+<div id="alert" role="alert" hidden></div>
+<div class="comparison-bar"><div class="model-picker" id="model-picker" aria-label="比较结构"></div><label class="toggle"><input id="linked" type="checkbox" title="默认独立控制；勾选后同步多个面板的旋转与缩放"> 联动旋转 / 缩放</label><button id="fit-all">适配全部</button><button id="reset-all">重置视角</button></div>
+<main class="workspace">
+<aside class="controls" aria-label="显示与测量设置">
+  <div class="control-head"><span class="eyebrow">DISPLAY & MEASURE</span><strong id="active-title">当前结构</strong><small>点击结构卡片，选择操作对象</small></div>
+  <details open><summary>显示方式 <span>01</span></summary><div class="control-body">
+    <label>结构样式<select id="style"><option value="ball">球棍</option><option value="stick">棍状</option><option value="sphere">空间填充</option><option value="line">细线 + 原子点</option></select></label>
+    <label>着色<select id="color"><option value="fragment">片段（碳着色）</option><option value="element">元素</option></select></label>
+    <label class="range-label">不透明度 <output id="opacity-value">100%</output><input id="opacity" type="range" min="0.15" max="1" step="0.05" value="1"></label>
+    <div class="checks"><label><input id="hydrogen" type="checkbox" checked> 氢原子</label><label><input id="labels" type="checkbox" checked> 片段标签</label><label><input id="cell" type="checkbox" checked> 周期盒</label></div>
+  </div></details>
+  <details open><summary>当前结构筛选 <span>02</span></summary><div class="control-body">
+    <label>显示预设<select id="preset"><option value="all">全部片段</option></select></label><p id="preset-note" class="hint"></p>
+    <div class="fragment-list" id="fragments"></div>
+    <label>仅显示原子 ID（可留空）<input id="atom-filter" type="text" placeholder="1, 2, 5-12"></label><button id="apply-filter">应用原子筛选</button><button id="clear-filter">清除筛选</button>
+  </div></details>
+  <details open><summary>几何测量 <span>03</span></summary><div class="control-body">
+    <label>点选模式<select id="measure-mode"><option value="inspect">识别原子</option><option value="distance">距离 · 2 原子</option><option value="angle">角度 · 3 原子</option><option value="dihedral">二面角 · 4 原子</option></select></label>
+    <label>按顺序输入稳定原子 ID<input id="measure-ids" type="text" placeholder="15, 51, 117"></label><button id="measure">测量 / 标注</button>
+    <div id="picked" class="hint">点击原子查看编号与坐标</div><ol id="measurements" class="measurement-list"></ol><button id="clear-measurements">清除测量</button>
+    <p class="hint">使用源坐标的直接欧氏几何；不跨面板测量，不使用周期最小镜像。</p>
+  </div></details>
+  <details><summary>接触候选 <span>04</span></summary><div class="control-body">
+    <label><input id="contacts" type="checkbox"> 显示几何候选虚线</label><p class="hint">仅明确 D–H 共价连接；D/A 为 N、O、F，A 无共价 H，且来自不同片段。H···A ≤ 2.6 Å，D···A ≤ 3.5 Å，∠D–H···A ≥ 130°。青色虚线不是共价键，也不等于氢键的科学认定。非周期、最多 5,000 原子。</p>
+  </div></details>
+  <details open><summary>图像导出 <span>05</span></summary><div class="control-body">
+    <label>每个面板的宽度<select id="resolution"><option value="1200">1,200 px · 快速</option><option value="1800" selected>1,800 px · 高清</option><option value="2400">2,400 px · 精细</option></select></label>
+    <label><input id="export-fit" type="checkbox" checked> 导出时适配视野，留出标签边距</label><button id="export-all" class="primary">导出比较 PNG</button><button id="export-active">导出当前 PNG</button><div id="export-result" class="hint"></div>
+  </div></details>
+</aside>
+<section class="stage"><div class="stage-heading"><span id="compare-count">结构比较</span><small>拖动旋转 · 滚轮缩放 · 右键拖动平移 · 点击原子识别</small></div><div id="cards" class="cards"></div><div class="element-legend"><span><i style="--swatch:#596779"></i>C</span><span><i style="--swatch:#d0d5dc"></i>H</span><span><i style="--swatch:#e6574f"></i>O</span><span><i style="--swatch:#4b74da"></i>N</span><span><i style="--swatch:#e8b13e"></i>S</span><span><i style="--swatch:#3a9b81"></i>F / Cl</span><span class="hint">片段色标见各结构下方 · 所有长度单位 Å</span></div><div id="inspector" class="inspector">选择一个原子，查看稳定编号、片段与原始坐标。</div>
+<details class="provenance"><summary>来源、状态与支持范围</summary><div id="sources"></div><p>原子序号和连接来自输入；没有连接信息时只显示原子。支持 XYZ 多帧、SDF V2000、PDB（显式元素与 CONECT）、P1 CIF。拒绝含混的占位、无序和未展开的晶体对称性。构型状态由数据提供者声明，渲染器不作科学验收；已验收状态必须附证据引用。</p><p>显示操作、测量和截图不会写回源结构。不自动拟合、优化、平移坐标、生成对称原子或周期镜像。页面内导入默认“待核验”。最多同时比较四个结构；单帧 50,000 原子，数据集 250,000 原子记录。大型体系请提取有依据的代表帧。</p><p>Structure Viewer 1.1.0 · <a href="vendor/dependency.json" target="_blank" rel="noopener">本地依赖与版本</a> · <a href="vendor/LICENSE-3Dmol.txt" target="_blank" rel="noopener">3Dmol.js 许可证</a></p></details>
+</section></main>
+<footer><span id="status" role="status" aria-live="polite">准备中</span><span>源坐标只读 · 导出带来源与显示状态</span></footer>
+</body></html>

@@ -1,0 +1,6 @@
+* text=auto eol=lf
+assets/structure-viewer/vendor/* -text -whitespace
+examples/*.sdf -text
+examples/fixtures/* -text -whitespace
+*.jpg -text
+*.png -text

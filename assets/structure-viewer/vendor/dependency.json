@@ -1,0 +1,11 @@
+{
+  "name": "3Dmol.js",
+  "version": "2.5.5",
+  "license": "BSD-3-Clause and bundled notices",
+  "source": "https://www.npmjs.com/package/3dmol/v/2.5.5",
+  "files": {
+    "3Dmol-min.js": "f7cc78921ae72e7623e89cdd111434f58c2efddd2ffda1cd212644b406fb8016",
+    "3Dmol-min.js.LICENSE.txt": "ae3bfc688d0c9687b76e0ecc7fece0b393bcb4acf2aee09e19dda697eaa10b16",
+    "LICENSE-3Dmol.txt": "4c6eaaed856f3f28a3b1a98e74f4a8a71618de7d51ea4155c29f6f793bcef861"
+  }
+}

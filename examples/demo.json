@@ -1,0 +1,2193 @@
+{
+  "schema": "structure-viewer/1",
+  "title": "Structure Viewer · 结构之美",
+  "description": "白底 · 青灰 · 片段着色 | 拖动比较，按需测量，高清导出。以下均为合成示意坐标，未经优化。",
+  "models": [
+    {
+      "id": "demo-a",
+      "title": "示例 A · 青绿",
+      "frames": [
+        {
+          "title": "演示帧 1 · 合成坐标",
+          "atoms": [
+            {
+              "id": "1",
+              "element": "C",
+              "position": [
+                -0.74,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "2",
+              "element": "C",
+              "position": [
+                -1.4385,
+                1.1834,
+                -0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "3",
+              "element": "C",
+              "position": [
+                -2.8355,
+                1.1834,
+                -0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "4",
+              "element": "C",
+              "position": [
+                -3.534,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "5",
+              "element": "C",
+              "position": [
+                -2.8355,
+                -1.1834,
+                0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "6",
+              "element": "C",
+              "position": [
+                -1.4385,
+                -1.1834,
+                0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "7",
+              "element": "H",
+              "position": [
+                -0.8985,
+                2.0983,
+                -0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "8",
+              "element": "H",
+              "position": [
+                -3.3755,
+                2.0983,
+                -0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "9",
+              "element": "H",
+              "position": [
+                -4.614,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "10",
+              "element": "H",
+              "position": [
+                -3.3755,
+                -2.0983,
+                0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "11",
+              "element": "H",
+              "position": [
+                -0.8985,
+                -2.0983,
+                0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "12",
+              "element": "C",
+              "position": [
+                3.534,
+                0.0,
+                0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "13",
+              "element": "C",
+              "position": [
+                2.8355,
+                1.0478,
+                0.6049
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "14",
+              "element": "C",
+              "position": [
+                1.4385,
+                1.0478,
+                0.6049
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "15",
+              "element": "C",
+              "position": [
+                0.74,
+                0.0,
+                0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "16",
+              "element": "C",
+              "position": [
+                1.4385,
+                -1.0477,
+                -0.6049
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "17",
+              "element": "C",
+              "position": [
+                2.8355,
+                -1.0478,
+                -0.6049
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "18",
+              "element": "H",
+              "position": [
+                4.614,
+                0.0,
+                0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "19",
+              "element": "H",
+              "position": [
+                3.3755,
+                1.8578,
+                1.0726
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "20",
+              "element": "H",
+              "position": [
+                0.8985,
+                1.8578,
+                1.0726
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "21",
+              "element": "H",
+              "position": [
+                0.8985,
+                -1.8577,
+                -1.0726
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "22",
+              "element": "H",
+              "position": [
+                3.3755,
+                -1.8578,
+                -1.0726
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "23",
+              "element": "C",
+              "position": [
+                -1.3,
+                3.7,
+                0.2
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "24",
+              "element": "C",
+              "position": [
+                0.18,
+                3.9,
+                0.5
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "25",
+              "element": "O",
+              "position": [
+                0.9,
+                2.72,
+                0.7
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "26",
+              "element": "H",
+              "position": [
+                -1.68,
+                3.3,
+                1.14
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "27",
+              "element": "H",
+              "position": [
+                -1.8,
+                4.64,
+                -0.02
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "28",
+              "element": "H",
+              "position": [
+                -1.49,
+                3.0,
+                -0.62
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "29",
+              "element": "H",
+              "position": [
+                0.37,
+                4.53,
+                1.37
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "30",
+              "element": "H",
+              "position": [
+                0.53,
+                4.4,
+                -0.41
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "31",
+              "element": "H",
+              "position": [
+                1.83,
+                2.92,
+                0.84
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "32",
+              "element": "O",
+              "position": [
+                -0.3,
+                -3.65,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            },
+            {
+              "id": "33",
+              "element": "H",
+              "position": [
+                0.46,
+                -3.08,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            },
+            {
+              "id": "34",
+              "element": "H",
+              "position": [
+                -0.02,
+                -4.56,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            }
+          ],
+          "bonds": [
+            {
+              "a": "1",
+              "b": "2",
+              "order": 1.5
+            },
+            {
+              "a": "2",
+              "b": "3",
+              "order": 1.5
+            },
+            {
+              "a": "2",
+              "b": "7",
+              "order": 1
+            },
+            {
+              "a": "3",
+              "b": "4",
+              "order": 1.5
+            },
+            {
+              "a": "3",
+              "b": "8",
+              "order": 1
+            },
+            {
+              "a": "4",
+              "b": "5",
+              "order": 1.5
+            },
+            {
+              "a": "4",
+              "b": "9",
+              "order": 1
+            },
+            {
+              "a": "5",
+              "b": "6",
+              "order": 1.5
+            },
+            {
+              "a": "5",
+              "b": "10",
+              "order": 1
+            },
+            {
+              "a": "6",
+              "b": "1",
+              "order": 1.5
+            },
+            {
+              "a": "6",
+              "b": "11",
+              "order": 1
+            },
+            {
+              "a": "12",
+              "b": "13",
+              "order": 1.5
+            },
+            {
+              "a": "12",
+              "b": "18",
+              "order": 1
+            },
+            {
+              "a": "13",
+              "b": "14",
+              "order": 1.5
+            },
+            {
+              "a": "13",
+              "b": "19",
+              "order": 1
+            },
+            {
+              "a": "14",
+              "b": "15",
+              "order": 1.5
+            },
+            {
+              "a": "14",
+              "b": "20",
+              "order": 1
+            },
+            {
+              "a": "15",
+              "b": "16",
+              "order": 1.5
+            },
+            {
+              "a": "16",
+              "b": "17",
+              "order": 1.5
+            },
+            {
+              "a": "16",
+              "b": "21",
+              "order": 1
+            },
+            {
+              "a": "17",
+              "b": "12",
+              "order": 1.5
+            },
+            {
+              "a": "17",
+              "b": "22",
+              "order": 1
+            },
+            {
+              "a": "1",
+              "b": "15",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "24",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "25",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "26",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "27",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "28",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "29",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "30",
+              "order": 1
+            },
+            {
+              "a": "25",
+              "b": "31",
+              "order": 1
+            },
+            {
+              "a": "32",
+              "b": "33",
+              "order": 1
+            },
+            {
+              "a": "32",
+              "b": "34",
+              "order": 1
+            }
+          ],
+          "bond_mode": "explicit",
+          "warnings": [
+            "纯样式演示：坐标由脚本合成，未优化，不代表科学结果。"
+          ],
+          "id": "frame-1",
+          "status": "illustrative",
+          "source": {
+            "name": "demo-a.sdf",
+            "sha256": "3d205c19521b17f555bb731557b6f4bb85d1204803fd0f21ea4cb804d8b8b5e5",
+            "format": "sdf",
+            "coordinate_unit": "angstrom",
+            "parser": "structure-viewer/1.1.0",
+            "record": 1
+          },
+          "coordinate_sha256": "70bdd599985a05ef1b3295c867b65a5ace8a55fd6b42caab2ef67e0371c53266"
+        },
+        {
+          "title": "演示帧 2 · 合成坐标",
+          "atoms": [
+            {
+              "id": "1",
+              "element": "C",
+              "position": [
+                -0.74,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "2",
+              "element": "C",
+              "position": [
+                -1.4385,
+                1.1834,
+                -0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "3",
+              "element": "C",
+              "position": [
+                -2.8355,
+                1.1834,
+                -0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "4",
+              "element": "C",
+              "position": [
+                -3.534,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "5",
+              "element": "C",
+              "position": [
+                -2.8355,
+                -1.1834,
+                0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "6",
+              "element": "C",
+              "position": [
+                -1.4385,
+                -1.1834,
+                0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "7",
+              "element": "H",
+              "position": [
+                -0.8985,
+                2.0983,
+                -0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "8",
+              "element": "H",
+              "position": [
+                -3.3755,
+                2.0983,
+                -0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "9",
+              "element": "H",
+              "position": [
+                -4.614,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "10",
+              "element": "H",
+              "position": [
+                -3.3755,
+                -2.0983,
+                0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "11",
+              "element": "H",
+              "position": [
+                -0.8985,
+                -2.0983,
+                0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "12",
+              "element": "C",
+              "position": [
+                3.534,
+                0.0,
+                0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "13",
+              "element": "C",
+              "position": [
+                2.8355,
+                0.6049,
+                1.0477
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "14",
+              "element": "C",
+              "position": [
+                1.4385,
+                0.6049,
+                1.0477
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "15",
+              "element": "C",
+              "position": [
+                0.74,
+                0.0,
+                0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "16",
+              "element": "C",
+              "position": [
+                1.4385,
+                -0.6049,
+                -1.0477
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "17",
+              "element": "C",
+              "position": [
+                2.8355,
+                -0.6049,
+                -1.0477
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "18",
+              "element": "H",
+              "position": [
+                4.614,
+                0.0,
+                0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "19",
+              "element": "H",
+              "position": [
+                3.3755,
+                1.0726,
+                1.8577
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "20",
+              "element": "H",
+              "position": [
+                0.8985,
+                1.0726,
+                1.8577
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "21",
+              "element": "H",
+              "position": [
+                0.8985,
+                -1.0726,
+                -1.8577
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "22",
+              "element": "H",
+              "position": [
+                3.3755,
+                -1.0726,
+                -1.8577
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "23",
+              "element": "C",
+              "position": [
+                -1.3,
+                3.88,
+                0.2
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "24",
+              "element": "C",
+              "position": [
+                0.18,
+                4.08,
+                0.5
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "25",
+              "element": "O",
+              "position": [
+                0.9,
+                2.9,
+                0.7
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "26",
+              "element": "H",
+              "position": [
+                -1.68,
+                3.48,
+                1.14
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "27",
+              "element": "H",
+              "position": [
+                -1.8,
+                4.82,
+                -0.02
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "28",
+              "element": "H",
+              "position": [
+                -1.49,
+                3.18,
+                -0.62
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "29",
+              "element": "H",
+              "position": [
+                0.37,
+                4.71,
+                1.37
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "30",
+              "element": "H",
+              "position": [
+                0.53,
+                4.58,
+                -0.41
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "31",
+              "element": "H",
+              "position": [
+                1.83,
+                3.1,
+                0.84
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "32",
+              "element": "O",
+              "position": [
+                -0.3,
+                -3.83,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            },
+            {
+              "id": "33",
+              "element": "H",
+              "position": [
+                0.46,
+                -3.26,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            },
+            {
+              "id": "34",
+              "element": "H",
+              "position": [
+                -0.02,
+                -4.74,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            }
+          ],
+          "bonds": [
+            {
+              "a": "1",
+              "b": "2",
+              "order": 1.5
+            },
+            {
+              "a": "2",
+              "b": "3",
+              "order": 1.5
+            },
+            {
+              "a": "2",
+              "b": "7",
+              "order": 1
+            },
+            {
+              "a": "3",
+              "b": "4",
+              "order": 1.5
+            },
+            {
+              "a": "3",
+              "b": "8",
+              "order": 1
+            },
+            {
+              "a": "4",
+              "b": "5",
+              "order": 1.5
+            },
+            {
+              "a": "4",
+              "b": "9",
+              "order": 1
+            },
+            {
+              "a": "5",
+              "b": "6",
+              "order": 1.5
+            },
+            {
+              "a": "5",
+              "b": "10",
+              "order": 1
+            },
+            {
+              "a": "6",
+              "b": "1",
+              "order": 1.5
+            },
+            {
+              "a": "6",
+              "b": "11",
+              "order": 1
+            },
+            {
+              "a": "12",
+              "b": "13",
+              "order": 1.5
+            },
+            {
+              "a": "12",
+              "b": "18",
+              "order": 1
+            },
+            {
+              "a": "13",
+              "b": "14",
+              "order": 1.5
+            },
+            {
+              "a": "13",
+              "b": "19",
+              "order": 1
+            },
+            {
+              "a": "14",
+              "b": "15",
+              "order": 1.5
+            },
+            {
+              "a": "14",
+              "b": "20",
+              "order": 1
+            },
+            {
+              "a": "15",
+              "b": "16",
+              "order": 1.5
+            },
+            {
+              "a": "16",
+              "b": "17",
+              "order": 1.5
+            },
+            {
+              "a": "16",
+              "b": "21",
+              "order": 1
+            },
+            {
+              "a": "17",
+              "b": "12",
+              "order": 1.5
+            },
+            {
+              "a": "17",
+              "b": "22",
+              "order": 1
+            },
+            {
+              "a": "1",
+              "b": "15",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "24",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "25",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "26",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "27",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "28",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "29",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "30",
+              "order": 1
+            },
+            {
+              "a": "25",
+              "b": "31",
+              "order": 1
+            },
+            {
+              "a": "32",
+              "b": "33",
+              "order": 1
+            },
+            {
+              "a": "32",
+              "b": "34",
+              "order": 1
+            }
+          ],
+          "bond_mode": "explicit",
+          "warnings": [
+            "纯样式演示：坐标由脚本合成，未优化，不代表科学结果。"
+          ],
+          "id": "frame-2",
+          "status": "illustrative",
+          "source": {
+            "name": "demo-a.sdf",
+            "sha256": "3d205c19521b17f555bb731557b6f4bb85d1204803fd0f21ea4cb804d8b8b5e5",
+            "format": "sdf",
+            "coordinate_unit": "angstrom",
+            "parser": "structure-viewer/1.1.0",
+            "record": 2
+          },
+          "coordinate_sha256": "7ae17e78ab4ccf0eedb23fa2f2ac49314842979868e85b0f83b46f877761906d"
+        }
+      ],
+      "fragments": {
+        "fragment-1": {
+          "title": "联苯",
+          "color": "#338f83"
+        },
+        "fragment-2": {
+          "title": "乙醇",
+          "color": "#c28a50"
+        },
+        "fragment-3": {
+          "title": "水",
+          "color": "#9b6bb3"
+        }
+      },
+      "presets": [
+        {
+          "id": "host",
+          "title": "仅联苯",
+          "fragments": [
+            "fragment-1"
+          ],
+          "note": "显示筛选；源数据不变"
+        },
+        {
+          "id": "guests",
+          "title": "仅乙醇与水",
+          "fragments": [
+            "fragment-2",
+            "fragment-3"
+          ],
+          "note": "合成位置，非溶剂化结果"
+        }
+      ]
+    },
+    {
+      "id": "demo-b",
+      "title": "示例 B · 蓝灰",
+      "frames": [
+        {
+          "title": "演示帧 1 · 合成坐标",
+          "atoms": [
+            {
+              "id": "1",
+              "element": "C",
+              "position": [
+                -0.74,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "2",
+              "element": "C",
+              "position": [
+                -1.4385,
+                1.1834,
+                -0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "3",
+              "element": "C",
+              "position": [
+                -2.8355,
+                1.1834,
+                -0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "4",
+              "element": "C",
+              "position": [
+                -3.534,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "5",
+              "element": "C",
+              "position": [
+                -2.8355,
+                -1.1834,
+                0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "6",
+              "element": "C",
+              "position": [
+                -1.4385,
+                -1.1834,
+                0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "7",
+              "element": "H",
+              "position": [
+                -0.8985,
+                2.0983,
+                -0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "8",
+              "element": "H",
+              "position": [
+                -3.3755,
+                2.0983,
+                -0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "9",
+              "element": "H",
+              "position": [
+                -4.614,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "10",
+              "element": "H",
+              "position": [
+                -3.3755,
+                -2.0983,
+                0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "11",
+              "element": "H",
+              "position": [
+                -0.8985,
+                -2.0983,
+                0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "12",
+              "element": "C",
+              "position": [
+                3.534,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "13",
+              "element": "C",
+              "position": [
+                2.8355,
+                0.8991,
+                -0.8095
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "14",
+              "element": "C",
+              "position": [
+                1.4385,
+                0.8991,
+                -0.8095
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "15",
+              "element": "C",
+              "position": [
+                0.74,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "16",
+              "element": "C",
+              "position": [
+                1.4385,
+                -0.8991,
+                0.8095
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "17",
+              "element": "C",
+              "position": [
+                2.8355,
+                -0.8991,
+                0.8095
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "18",
+              "element": "H",
+              "position": [
+                4.614,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "19",
+              "element": "H",
+              "position": [
+                3.3755,
+                1.5942,
+                -1.4354
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "20",
+              "element": "H",
+              "position": [
+                0.8985,
+                1.5942,
+                -1.4354
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "21",
+              "element": "H",
+              "position": [
+                0.8985,
+                -1.5942,
+                1.4354
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "22",
+              "element": "H",
+              "position": [
+                3.3755,
+                -1.5942,
+                1.4354
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "23",
+              "element": "C",
+              "position": [
+                -1.3,
+                3.7,
+                0.2
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "24",
+              "element": "C",
+              "position": [
+                0.18,
+                3.9,
+                0.5
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "25",
+              "element": "O",
+              "position": [
+                0.9,
+                2.72,
+                0.7
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "26",
+              "element": "H",
+              "position": [
+                -1.68,
+                3.3,
+                1.14
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "27",
+              "element": "H",
+              "position": [
+                -1.8,
+                4.64,
+                -0.02
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "28",
+              "element": "H",
+              "position": [
+                -1.49,
+                3.0,
+                -0.62
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "29",
+              "element": "H",
+              "position": [
+                0.37,
+                4.53,
+                1.37
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "30",
+              "element": "H",
+              "position": [
+                0.53,
+                4.4,
+                -0.41
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "31",
+              "element": "H",
+              "position": [
+                1.83,
+                2.92,
+                0.84
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "32",
+              "element": "O",
+              "position": [
+                -0.3,
+                -3.65,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            },
+            {
+              "id": "33",
+              "element": "H",
+              "position": [
+                0.46,
+                -3.08,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            },
+            {
+              "id": "34",
+              "element": "H",
+              "position": [
+                -0.02,
+                -4.56,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            }
+          ],
+          "bonds": [
+            {
+              "a": "1",
+              "b": "2",
+              "order": 1.5
+            },
+            {
+              "a": "2",
+              "b": "3",
+              "order": 1.5
+            },
+            {
+              "a": "2",
+              "b": "7",
+              "order": 1
+            },
+            {
+              "a": "3",
+              "b": "4",
+              "order": 1.5
+            },
+            {
+              "a": "3",
+              "b": "8",
+              "order": 1
+            },
+            {
+              "a": "4",
+              "b": "5",
+              "order": 1.5
+            },
+            {
+              "a": "4",
+              "b": "9",
+              "order": 1
+            },
+            {
+              "a": "5",
+              "b": "6",
+              "order": 1.5
+            },
+            {
+              "a": "5",
+              "b": "10",
+              "order": 1
+            },
+            {
+              "a": "6",
+              "b": "1",
+              "order": 1.5
+            },
+            {
+              "a": "6",
+              "b": "11",
+              "order": 1
+            },
+            {
+              "a": "12",
+              "b": "13",
+              "order": 1.5
+            },
+            {
+              "a": "12",
+              "b": "18",
+              "order": 1
+            },
+            {
+              "a": "13",
+              "b": "14",
+              "order": 1.5
+            },
+            {
+              "a": "13",
+              "b": "19",
+              "order": 1
+            },
+            {
+              "a": "14",
+              "b": "15",
+              "order": 1.5
+            },
+            {
+              "a": "14",
+              "b": "20",
+              "order": 1
+            },
+            {
+              "a": "15",
+              "b": "16",
+              "order": 1.5
+            },
+            {
+              "a": "16",
+              "b": "17",
+              "order": 1.5
+            },
+            {
+              "a": "16",
+              "b": "21",
+              "order": 1
+            },
+            {
+              "a": "17",
+              "b": "12",
+              "order": 1.5
+            },
+            {
+              "a": "17",
+              "b": "22",
+              "order": 1
+            },
+            {
+              "a": "1",
+              "b": "15",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "24",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "25",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "26",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "27",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "28",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "29",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "30",
+              "order": 1
+            },
+            {
+              "a": "25",
+              "b": "31",
+              "order": 1
+            },
+            {
+              "a": "32",
+              "b": "33",
+              "order": 1
+            },
+            {
+              "a": "32",
+              "b": "34",
+              "order": 1
+            }
+          ],
+          "bond_mode": "explicit",
+          "warnings": [
+            "纯样式演示：坐标由脚本合成，未优化，不代表科学结果。"
+          ],
+          "id": "frame-1",
+          "status": "illustrative",
+          "source": {
+            "name": "demo-b.sdf",
+            "sha256": "2a8e50b3f1542a466fcebe9f9e3edd40b987a26e92c798c4dc0ba2df5137b563",
+            "format": "sdf",
+            "coordinate_unit": "angstrom",
+            "parser": "structure-viewer/1.1.0",
+            "record": 1
+          },
+          "coordinate_sha256": "5a5a9cdac588aca0947d16355f639b6dbbed879321ec3994f7877eb58e547fd0"
+        },
+        {
+          "title": "演示帧 2 · 合成坐标",
+          "atoms": [
+            {
+              "id": "1",
+              "element": "C",
+              "position": [
+                -0.74,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "2",
+              "element": "C",
+              "position": [
+                -1.4385,
+                1.1834,
+                -0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "3",
+              "element": "C",
+              "position": [
+                -2.8355,
+                1.1834,
+                -0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "4",
+              "element": "C",
+              "position": [
+                -3.534,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "5",
+              "element": "C",
+              "position": [
+                -2.8355,
+                -1.1834,
+                0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "6",
+              "element": "C",
+              "position": [
+                -1.4385,
+                -1.1834,
+                0.2515
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "7",
+              "element": "H",
+              "position": [
+                -0.8985,
+                2.0983,
+                -0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "8",
+              "element": "H",
+              "position": [
+                -3.3755,
+                2.0983,
+                -0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "9",
+              "element": "H",
+              "position": [
+                -4.614,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "10",
+              "element": "H",
+              "position": [
+                -3.3755,
+                -2.0983,
+                0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "11",
+              "element": "H",
+              "position": [
+                -0.8985,
+                -2.0983,
+                0.446
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "12",
+              "element": "C",
+              "position": [
+                3.534,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "13",
+              "element": "C",
+              "position": [
+                2.8355,
+                0.4138,
+                -1.1369
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "14",
+              "element": "C",
+              "position": [
+                1.4385,
+                0.4138,
+                -1.1369
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "15",
+              "element": "C",
+              "position": [
+                0.74,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "16",
+              "element": "C",
+              "position": [
+                1.4385,
+                -0.4138,
+                1.1369
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "17",
+              "element": "C",
+              "position": [
+                2.8355,
+                -0.4138,
+                1.1369
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "18",
+              "element": "H",
+              "position": [
+                4.614,
+                0.0,
+                -0.0
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "19",
+              "element": "H",
+              "position": [
+                3.3755,
+                0.7337,
+                -2.0158
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "20",
+              "element": "H",
+              "position": [
+                0.8985,
+                0.7337,
+                -2.0158
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "21",
+              "element": "H",
+              "position": [
+                0.8985,
+                -0.7337,
+                2.0158
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "22",
+              "element": "H",
+              "position": [
+                3.3755,
+                -0.7337,
+                2.0158
+              ],
+              "fragment": "fragment-1"
+            },
+            {
+              "id": "23",
+              "element": "C",
+              "position": [
+                -1.3,
+                3.88,
+                0.2
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "24",
+              "element": "C",
+              "position": [
+                0.18,
+                4.08,
+                0.5
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "25",
+              "element": "O",
+              "position": [
+                0.9,
+                2.9,
+                0.7
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "26",
+              "element": "H",
+              "position": [
+                -1.68,
+                3.48,
+                1.14
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "27",
+              "element": "H",
+              "position": [
+                -1.8,
+                4.82,
+                -0.02
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "28",
+              "element": "H",
+              "position": [
+                -1.49,
+                3.18,
+                -0.62
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "29",
+              "element": "H",
+              "position": [
+                0.37,
+                4.71,
+                1.37
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "30",
+              "element": "H",
+              "position": [
+                0.53,
+                4.58,
+                -0.41
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "31",
+              "element": "H",
+              "position": [
+                1.83,
+                3.1,
+                0.84
+              ],
+              "fragment": "fragment-2"
+            },
+            {
+              "id": "32",
+              "element": "O",
+              "position": [
+                -0.3,
+                -3.83,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            },
+            {
+              "id": "33",
+              "element": "H",
+              "position": [
+                0.46,
+                -3.26,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            },
+            {
+              "id": "34",
+              "element": "H",
+              "position": [
+                -0.02,
+                -4.74,
+                0.8
+              ],
+              "fragment": "fragment-3"
+            }
+          ],
+          "bonds": [
+            {
+              "a": "1",
+              "b": "2",
+              "order": 1.5
+            },
+            {
+              "a": "2",
+              "b": "3",
+              "order": 1.5
+            },
+            {
+              "a": "2",
+              "b": "7",
+              "order": 1
+            },
+            {
+              "a": "3",
+              "b": "4",
+              "order": 1.5
+            },
+            {
+              "a": "3",
+              "b": "8",
+              "order": 1
+            },
+            {
+              "a": "4",
+              "b": "5",
+              "order": 1.5
+            },
+            {
+              "a": "4",
+              "b": "9",
+              "order": 1
+            },
+            {
+              "a": "5",
+              "b": "6",
+              "order": 1.5
+            },
+            {
+              "a": "5",
+              "b": "10",
+              "order": 1
+            },
+            {
+              "a": "6",
+              "b": "1",
+              "order": 1.5
+            },
+            {
+              "a": "6",
+              "b": "11",
+              "order": 1
+            },
+            {
+              "a": "12",
+              "b": "13",
+              "order": 1.5
+            },
+            {
+              "a": "12",
+              "b": "18",
+              "order": 1
+            },
+            {
+              "a": "13",
+              "b": "14",
+              "order": 1.5
+            },
+            {
+              "a": "13",
+              "b": "19",
+              "order": 1
+            },
+            {
+              "a": "14",
+              "b": "15",
+              "order": 1.5
+            },
+            {
+              "a": "14",
+              "b": "20",
+              "order": 1
+            },
+            {
+              "a": "15",
+              "b": "16",
+              "order": 1.5
+            },
+            {
+              "a": "16",
+              "b": "17",
+              "order": 1.5
+            },
+            {
+              "a": "16",
+              "b": "21",
+              "order": 1
+            },
+            {
+              "a": "17",
+              "b": "12",
+              "order": 1.5
+            },
+            {
+              "a": "17",
+              "b": "22",
+              "order": 1
+            },
+            {
+              "a": "1",
+              "b": "15",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "24",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "25",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "26",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "27",
+              "order": 1
+            },
+            {
+              "a": "23",
+              "b": "28",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "29",
+              "order": 1
+            },
+            {
+              "a": "24",
+              "b": "30",
+              "order": 1
+            },
+            {
+              "a": "25",
+              "b": "31",
+              "order": 1
+            },
+            {
+              "a": "32",
+              "b": "33",
+              "order": 1
+            },
+            {
+              "a": "32",
+              "b": "34",
+              "order": 1
+            }
+          ],
+          "bond_mode": "explicit",
+          "warnings": [
+            "纯样式演示：坐标由脚本合成，未优化，不代表科学结果。"
+          ],
+          "id": "frame-2",
+          "status": "illustrative",
+          "source": {
+            "name": "demo-b.sdf",
+            "sha256": "2a8e50b3f1542a466fcebe9f9e3edd40b987a26e92c798c4dc0ba2df5137b563",
+            "format": "sdf",
+            "coordinate_unit": "angstrom",
+            "parser": "structure-viewer/1.1.0",
+            "record": 2
+          },
+          "coordinate_sha256": "1e1ef041b527f575d54aba2b053c38a424c5d47d00aea91ed8217a35cbd17165"
+        }
+      ],
+      "fragments": {
+        "fragment-1": {
+          "title": "联苯",
+          "color": "#477eaa"
+        },
+        "fragment-2": {
+          "title": "乙醇",
+          "color": "#c28a50"
+        },
+        "fragment-3": {
+          "title": "水",
+          "color": "#9b6bb3"
+        }
+      },
+      "presets": [
+        {
+          "id": "host",
+          "title": "仅联苯",
+          "fragments": [
+            "fragment-1"
+          ],
+          "note": "显示筛选；源数据不变"
+        },
+        {
+          "id": "guests",
+          "title": "仅乙醇与水",
+          "fragments": [
+            "fragment-2",
+            "fragment-3"
+          ],
+          "note": "合成位置，非溶剂化结果"
+        }
+      ]
+    }
+  ]
+}
